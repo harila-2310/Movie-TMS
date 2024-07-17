@@ -9,8 +9,7 @@ const Navbar = () => {
     }
   return (
     <div>
-        hello world
-      <a href='/' onClick={onLogout}>Logout</a>
+      <h2 onClick={onLogout}>Logout</h2>
     </div>
   )
 }
